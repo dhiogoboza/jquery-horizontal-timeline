@@ -24,5 +24,5 @@ $("YOUR_SELECTOR").timeline({
 
 ## TODO
 
-`Date.prototype.formatString`: Use format argument
-`$.fn.timeline - arguments`: Add argument to pass step and use it
+[Date.prototype.formatString]: Use format argument
+[$.fn.timeline - arguments]: Add argument to pass step and use it
