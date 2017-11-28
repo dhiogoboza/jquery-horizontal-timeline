@@ -1,6 +1,6 @@
 /**
  * Created by dhiogoboza on 24/11/17.
- * From: TODO: publish
+ * Available at: https://github.com/dhiogoboza/jquery-timeline
  * A jquery plugin to create a simple horizontal timeline.
  */
  Date.prototype.formatString = (function() {
@@ -18,7 +18,7 @@
 Date.prototype.toDateInputValue = (function() {
     var local = new Date(this);
     local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
-    return local.toJSON().slice(0,10);
+    return local.toJSON().slice(0, 10);
 });
 
 Date.prototype.convertToUTC = (function() { 
@@ -51,7 +51,9 @@ Array.prototype.contains = (function () {
             items_container_class: "items-container",
             items_class: "item",
             circle_class: "circle",
+            format: "D-m-YYYY",
             circle_selected_class: "selected"
+            //TODO: add argument to pass step and use it
         }, options );
         
         function date_comparator(date1, date2) {
@@ -76,7 +78,7 @@ Array.prototype.contains = (function () {
             }
             
             function addItem($items_container, date, index) {
-                var str_date = date? date.formatString("D-m-YYYY") : "";
+                var str_date = date? date.formatString(settings.format) : "";
                 
                 var $item = $("<div/>").addClass(settings.items_class);
                 
