@@ -13,9 +13,9 @@ Dhiogo Boza - dhiogoboza@gmail.com
 
 ```javascript
 $("YOUR_SELECTOR").timeline({
-    dates: dates, // array of dates or
-    start_date: undefined, // start date
-    end_date: undefined, // end date
+    dates: dates_array, // array of dates or
+    start_date: date, // start date
+    end_date: date, // end date
     onSelection: function(date) {
         // event when a date is selected
     }
@@ -24,5 +24,5 @@ $("YOUR_SELECTOR").timeline({
 
 ## TODO
 
-[Date.prototype.formatString]: Use format argument
-[$.fn.timeline - arguments]: Add argument to pass step and use it
+* [Date.prototype.formatString]: Use format argument
+* [$.fn.timeline - arguments]: Add argument to pass step and use it
