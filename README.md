@@ -1,12 +1,15 @@
 # jquery-timeline
 
 ## Description
+
 A simple jQuery plugin to displays a clickable timeline.
 
 ## Screenshots
+
 ![Alt text](/screenshots/screenshot01.png?raw=true "Screenshot 01")
 
 ## Author
+
 Dhiogo Boza - dhiogoboza@gmail.com
 
 ## Usage
@@ -21,6 +24,27 @@ $("YOUR_SELECTOR").timeline({
     }
 });
 ```
+
+## Contributing
+
+[npm](https://www.npmjs.com) is used to build and test `jquery-timeline`.
+
+### Building
+
+```
+npm install
+npm run build
+```
+
+Check `dist` folder for compiled code
+
+### Testing
+
+```
+npm run test
+```
+
+Opens a browser window and run unit test. Check [QUnit](http://qunitjs.com/) for details on how to write tests.
 
 ## TODO
 
