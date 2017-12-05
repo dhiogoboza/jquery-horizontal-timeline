@@ -29,7 +29,7 @@ $("YOUR_SELECTOR").timeline({
 
 [npm](https://www.npmjs.com) is used to build and test `jquery-timeline`.
 
-### Building
+## Building
 
 ```
 npm install
@@ -38,7 +38,7 @@ npm run build
 
 Check `dist` folder for compiled code
 
-### Testing
+## Testing
 
 ```
 npm run test
