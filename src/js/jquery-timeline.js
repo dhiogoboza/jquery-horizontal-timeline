@@ -10,7 +10,7 @@
     
     var format = arguments[0];
     // TODO: use format
-    var str = this.getUTCDate() + "-" + (this.getUTCMonth() + 1) + "-" + this.getUTCFullYear();
+    var str = (this.getUTCDate() < 10? "0"  : "") + this.getUTCDate() + "-" + (this.getUTCMonth() + 1) + "-" + this.getUTCFullYear();
     
     return str;
 });
