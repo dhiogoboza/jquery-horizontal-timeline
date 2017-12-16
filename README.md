@@ -10,8 +10,8 @@ A simple jQuery plugin to displays a clickable timeline.
 
 ## Contributors
 
-Dhiogo Boza <dhiogoboza@gmail.com>
-Ruben Oliveira Chiavone <rubenochiavone@gmail.com>
+* Dhiogo Boza <dhiogoboza@gmail.com>
+* Ruben Oliveira Chiavone <rubenochiavone@gmail.com>
 
 ## Usage
 
