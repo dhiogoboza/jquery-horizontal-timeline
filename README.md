@@ -6,11 +6,12 @@ A simple jQuery plugin to displays a clickable timeline.
 
 ## Screenshots
 
-![Alt text](/screenshots/screenshot01.png?raw=true "Screenshot 01")
+![Screenshot01](/screenshots/screenshot01.png?raw=true "Screenshot 01")
 
-## Author
+## Contributors
 
-Dhiogo Boza - dhiogoboza@gmail.com
+Dhiogo Boza <dhiogoboza@gmail.com>
+Ruben Oliveira Chiavone <rubenochiavone@gmail.com>
 
 ## Usage
 
